@@ -59,7 +59,7 @@ ${translatedTafsirEnglish.text}`;
     await conn.sendMessage(
       from,
       {
-        image: { url: `https://files.catbox.moe/8otj3h.jpg` },
+        image: { url: `https://files.catbox.moe/5zxtq5.jpg` },
         caption: quranSurah,
         contextInfo: {
           mentionedJid: [m.sender], 
@@ -449,7 +449,7 @@ async (conn, mek, m, { from, quoted, body,isCmd, command, args, q, isGroup, send
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/8otj3h.jpg` },
+                image: { url: `https://files.catbox.moe/5zxtq5.jpghttps://files.catbox.moe/5zxtq5.jpghttps://files.catbox.moe/5zxtq5.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -457,7 +457,7 @@ async (conn, mek, m, { from, quoted, body,isCmd, command, args, q, isGroup, send
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363390923760286@newsletter',
-                        newsletterName: 'elly xmd',
+                        newsletterName: 'kirikuu md',
                         serverMessageId: 143
                     }
                 }
@@ -466,7 +466,7 @@ async (conn, mek, m, { from, quoted, body,isCmd, command, args, q, isGroup, send
         );
 
         await conn.sendMessage(from, {
-            audio: { url: 'https://files.catbox.moe/6j2z63.mp3' },
+            audio: { url: 'https://files.catbox.moe/nbd6yu.mp3' },
             mimetype: 'audio/mp4',
             ptt: false
         }, { quoted: mek });
