@@ -21,7 +21,7 @@ cmd(
                 ? `${sender} is crying over @${mentionedUser.split("@")[0]}`
                 : isGroup
                 ? `${sender} is crying!`
-                : `> © Powered By ELLY XMD ☣️`;
+                : `> © Powered By KIRIKUU MD ☣️`;
 
             const apiUrl = "https://api.waifu.pics/sfw/cry";
             let res = await axios.get(apiUrl);
