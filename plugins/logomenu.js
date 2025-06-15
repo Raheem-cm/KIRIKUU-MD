@@ -12,14 +12,14 @@ cmd({
 }, 
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
-        let dec = `*╭───❍「 LOGO 𝖫𝖨𝖲𝖳 」❍*
-‎*├⬡ .ɴᴇᴏɴʟɪɢʜᴛ*
-‎*├⬡ .ʙʟᴀᴄᴋᴘɪɴᴋ*
-‎*├⬡ .ᴅʀᴀɢᴏɴʙᴀʟʟ*
-‎*├⬡ .𝟹ᴅᴄᴏᴍɪᴄ*
-‎*├⬡ .ᴀᴍᴇʀɪᴄᴀ*
-‎*├⬡ .ɴᴀʀᴜᴛᴏ*
-‎*├⬡ .sᴀᴅɢɪʀʟ*
+        let dec = `*╭───🔥「 LOGO 𝖫𝖨𝖲𝖳 」🔥*
+‎*├🔥 .ɴᴇᴏɴʟɪɢʜᴛ*
+‎*├🔥 .ʙʟᴀᴄᴋᴘɪɴᴋ*
+‎*├🔥 .ᴅʀᴀɢᴏɴʙᴀʟʟ*
+‎*├👀 .𝟹ᴅᴄᴏᴍɪᴄ*
+‎*├🥱 .ᴀᴍᴇʀɪᴄᴀ*
+‎*├⚒️ .ɴᴀʀᴜᴛᴏ*
+‎*├ .sᴀᴅɢɪʀʟ*
 ‎*├⬡ .ᴄʟᴏᴜᴅs*
 ‎*├⬡ .ғᴜᴛᴜʀɪsᴛɪᴄ*
 ‎*├⬡ .𝟹ᴅᴘᴀᴘᴇʀ*
@@ -44,7 +44,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ‎*├⬡ .ʙᴇᴀʀ*
 ‎*├⬡ .ᴛʏᴘᴏɢʀᴀᴘʜʏ*
 ‎*├⬡ .ʙɪʀᴛʜᴅᴀʏ*
-‎*╰───────────────❍*`;
+‎*╰───────────────*★彡𝐊𝐈𝐑𝐈𝐊𝐔𝐔-𝐌𝐃彡★*`;
 
         await conn.sendMessage(
             from,
