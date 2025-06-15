@@ -11,7 +11,7 @@ cmd({
     filename: __filename,
 },
 async (conn, mek, m, { from, reply }) => {
-    const githubRepoURL = 'https://github.com/Kidorganic08/ELLY-XMD';
+    const githubRepoURL = 'https://github.com/Raheem-cm/KIRIKUU-MD';
 
     try {
         const [, username, repoName] = githubRepoURL.match(/github\.com\/([^/]+)\/([^/]+)/);
@@ -172,7 +172,7 @@ ${repoData.description || 'No description provided'}
 
         // Send image with repo info
         await conn.sendMessage(from, {
-            image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/8otj3h.jpg' },
+            image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/9htcdk.jpg' },
             caption: selectedStyle,
             contextInfo: { 
                 mentionedJid: [m.sender],
@@ -180,7 +180,7 @@ ${repoData.description || 'No description provided'}
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363390923760286@newsletter',
-                    newsletterName: config.OWNER_NAME || 'Pk driller',
+                    newsletterName: config.OWNER_NAME || 'Kirikuu md',
                     serverMessageId: 143
                 }
             }
@@ -188,7 +188,7 @@ ${repoData.description || 'No description provided'}
 
         // Send audio
         await conn.sendMessage(from, {
-            audio: { url: 'https://files.catbox.moe/6j2z63.mp3' },
+            audio: { url: 'https://files.catbox.moe/bn1zm3.mp3' },
             mimetype: 'audio/mp4',
             ptt: true,
             contextInfo: { 
