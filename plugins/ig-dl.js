@@ -43,7 +43,7 @@ async (conn, mek, m, { from, prefix, quoted, q, reply }) => {
             await conn.sendMessage(from, {
                 video: { url: video.url },
                 mimetype: "video/mp4",
-                caption: `╭━━━〔 *ELLY-XMD* 〕━━━┈⊷\n┃▸ *Instagram Video*\n╰────────────────┈⊷\n> *© Powered ELLY-TECH♡*`
+                caption: `╭━━━〔 *KIRIKUU-MD* 〕━━━┈⊷\n┃▸ *Instagram Video*\n╰────────────────┈⊷\n> *© Powered ELLY-TECH♡*`
             }, { quoted: mek });
         }
 
