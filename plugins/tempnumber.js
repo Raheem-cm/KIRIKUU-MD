@@ -147,6 +147,6 @@ async (conn, mek, m, { from, args, reply }) => {
             "⌛ OTP check timed out. Try again later" :
             `⚠ Error: ${err.response?.data?.error || err.message}`;
         
-        reply(`${errorMsg}\n\nUsage: .otpbox +2547322xx`);
+        reply(`${errorMsg}\n\nUsage: .otpbox +2557631113xx`);
     }
 });
