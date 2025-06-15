@@ -9,7 +9,7 @@ cmd({
     pattern: "update",
     alias: ["upgrade", "sync"],
     react: '🆕',
-    desc: "Update the bot to the latest version.",
+    desc: "Update the kirikuu md bot to the latest version.",
     category: "misc",
     filename: __filename
 }, async (client, message, args, { reply, isOwner }) => {
@@ -19,7 +19,7 @@ cmd({
         await reply("🔍 Checking for ELLY-XMDupdates...");
 
         // Fetch the latest commit hash from GitHub
-        const { data: commitData } = await axios.get("https://api.github.com/repos/Kidorganic08/ELLY-XMD/commits/main");
+        const { data: commitData } = await axios.get("https://api.github.com/repos/Raheem-cm/KIRIKUU-MD/commits/main");
         const latestCommitHash = commitData.sha;
 
         // Get the stored commit hash from the database
@@ -33,7 +33,7 @@ cmd({
 
         // Download the latest code
         const zipPath = path.join(__dirname, "latest.zip");
-        const { data: zipData } = await axios.get("https://github.com/Kidorganic08/ELLY-XMD/archive/main.zip", { responseType: "arraybuffer" });
+        const { data: zipData } = await axios.get("https://github.com/Raheem-cm/KIRIKUU-MD/archive/main.zip", { responseType: "arraybuffer" });
         fs.writeFileSync(zipPath, zipData);
 
         // Extract ZIP file
