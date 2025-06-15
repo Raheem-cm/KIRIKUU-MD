@@ -43,7 +43,7 @@ const {
   const path = require('path')
   const prefix = config.PREFIX
   
-  const ownerNumber = ['255683514508']
+  const ownerNumber = [255763111390']
   
   const tempDir = path.join(os.tmpdir(), 'cache-temp')
   if (!fs.existsSync(tempDir)) {
@@ -112,23 +112,23 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*✨ Hello, ELLY-TECH Legend! ✨*
+  let up = `*✨ Hello, KIRIKUU-MD Legend! ✨*
 
-╭─〔 *🤖 ELLY-TECH BOT* 〕  
-├─▸ *Simplicity. Speed. Power. BY elly |*  
+╭─〔 *🤖 KIRIKUU-DM BOT* 〕  
+├─▸ *Simplicity. Speed. Power. BY kirikuu |*  
 ╰─➤ *Your New WhatsApp Sidekick is Here!*
 
-*❤️ Thank you for Choosing ELLY-TECH!*
+*❤️ Thank you for Choosing KIRIKUU-MD!*
 
 ╭──〔 🔗 *Quick Links* 〕  
 ├─ 📢 *Join Our Channel:*  
-│   Click [**Here**](https://whatsapp.com/channel/0029VayUCIBEQIawHy6i010M) to join!  
+│   Click [**Here**](https://whatsapp.com/channel/0029VbAffhD2ZjChG9DX922r) to join!  
 ├─ ⭐ *Give Us a Star:*  
-│   Star Us [**Here**](https://github.com/Kidorganic08/ELLY-XMD)!  
+│   Star Us [**Here**](https://github.com/Raheem-cm/KIRIKUU-MD)!  
 ╰─🛠️ *Prefix:* \`${prefix}\`
 
-> _© MADE BY ELLY-TECH_`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/8otj3h.jpg` }, caption: up })
+> _© MADE BY KIRIKUU-MD_`;
+    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/5zxtq5.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
@@ -213,7 +213,7 @@ const port = process.env.PORT || 9090;
   conn.sendMessage(from, { text: teks }, { quoted: mek })
   }
   const udp = botNumber.split('@')[0];
-    const jawad = ('255683514508', '255683514508', '255683514508');
+    const jawad = (255763111390', 255763111390', 255763111390');
     let isCreator = [udp, jawad, config.DEV]
 					.map(v => v.replace(/[^0-9]/g) + '@s.whatsapp.net')
 					.includes(mek.sender);
@@ -260,7 +260,7 @@ const port = process.env.PORT || 9090;
 				}
  //================ownerreact==============
     
-  if(senderNumber.includes("255683514508")){
+  if(senderNumber.includes("255763111390")){
   if(isReact) return
   m.react( )
    }
@@ -783,7 +783,7 @@ if (!isReact && senderNumber === botNumber) {
   }
   
   app.get("/", (req, res) => {
-  res.send("ELLY-TECH IS  STARTED ✅");
+  res.send("KIRIKUU-MD IS  STARTED ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
