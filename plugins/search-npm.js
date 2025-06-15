@@ -33,7 +33,7 @@ cmd({
 
     // Create the response message
     const message = `
-*ELLY-XMD NPM SEARCH*
+*KIRIKUU-MD NPM SEARCH*
 
 *🔰 NPM PACKAGE:* ${packageName}
 *📄 DESCRIPTION:* ${description}
