@@ -1,6 +1,6 @@
-name: elly-xmd
+name: kirikuu-md
 services:
-  - name: elly-xmd-service
+  - name: kirikuu-md-service
     type: web
     ports:
       - 5000
