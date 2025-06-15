@@ -73,7 +73,7 @@ cmd({
         await conn.sendMessage(
             from,
             {
-                image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/8otj3h.jpg' },
+                image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/5zxtq5.jpg' },
                 caption: menuText,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -88,4 +88,5 @@ cmd({
         console.error('Command List Error:', e)
         reply(`❌ Error generating command list: ${e.message}`)
     }
-})
+})             
+       //     Power by kirikuu md
