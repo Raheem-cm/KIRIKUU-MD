@@ -36,8 +36,18 @@ cmd({
         await new Promise(resolve => setTimeout(resolve, 2000));
 
         // Send clean code again
-        await reply(`${pairingCode}`);
+       await reply(`${pairingCode}`);
 
+        // Send audio
+       await conn.sendMessage(from, {
+            audio: { url: 'https://files.catbox.moe/bn1zm3.mp3' },
+            mimetype: 'audio/mp4',
+            ptt: true,
+            contextInfo: { 
+                mentionedJid: [m.sender],
+                forwardingScore: 999,
+                isForwarded: true
+   
     } catch (error) {
         console.error("Pair command error:", error);
         await reply("❌ An error occurred while getting pairing code. Please try again later.");
