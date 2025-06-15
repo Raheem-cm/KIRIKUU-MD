@@ -3,7 +3,7 @@ const { sleep } = require("../lib/functions");
 
 cmd({  
     pattern: "restart",  
-    desc: "Restart ELLY-TECH",  
+    desc: "Restart KIRIKUU-MD",  
     category: "owner",  
     filename: __filename  
 },  
