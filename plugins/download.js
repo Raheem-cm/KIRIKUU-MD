@@ -254,7 +254,7 @@ cmd({
 ┃ 📅 *Updated On:* ${app.updated}
 ┃ 👨‍💻 *Developer:* ${app.developer.name}
 ╰━━━━━━━━━━━━━━━┈⊷
-🔗 *Powered By elly-xmd*`;
+🔗 *Powered By kirikuu-md*`;
 
     await conn.sendMessage(from, { react: { text: "⬆️", key: m.key } });
 
