@@ -120,7 +120,7 @@ ${config.DESCRIPTION}`;
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363390923760286@newsletter',
-                    newsletterName: config.OWNER_NAME || 'ELLY TECH',
+                    newsletterName: config.OWNER_NAME || 'RAHEEM CM',
                     serverMessageId: 143
                 }
             }
