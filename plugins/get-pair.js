@@ -5,9 +5,9 @@ cmd({
     pattern: "pair",
     alias: ["getpair", "clonebot"],
     react: "✅",
-    desc: "Get pairing code for NEXUS-XMD bot",
+    desc: "Get pairing code for KIRIKUU-MD bot",
     category: "download",
-    use: ".pair 2546582XXX",
+    use: ".pair 255763111XXX",
     filename: __filename
 }, async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, senderNumber, reply }) => {
     try {
@@ -27,7 +27,7 @@ cmd({
         }
 
         const pairingCode = response.data.code;
-        const doneMessage = "> *ELLY-XMD PAIRING COMPLETED*";
+        const doneMessage = "> *KIRIKUU-MD PAIRING COMPLETED*";
 
         // Send initial message with formatting
         await reply(`${doneMessage}\n\n*Your pairing code is:* ${pairingCode}`);
