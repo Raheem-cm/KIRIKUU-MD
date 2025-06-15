@@ -31,7 +31,7 @@ cmd({
                 `📜 *Bible Verse Found!*\n\n` +
                 `📖 *Reference:* ${ref}\n` +
                 `📚 *Text:* ${text}\n\n` +
-                `🗂️ *Translation:* ${translation_name}\n\n © ELLY XMD BIBLE`
+                `🗂️ *Translation:* ${translation_name}\n\n © KIRIKUU MD BIBLE`
             );
         } else {
             reply("❌ *Verse not found.* Please check the reference and try again.");
