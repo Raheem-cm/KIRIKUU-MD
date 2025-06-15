@@ -40,7 +40,7 @@ cmd({
             document: fs.readFileSync(nmfilect), 
             mimetype: 'text/vcard', 
             fileName: 'elly.vcf', 
-            caption: `\nDone saving.\nGroup Name: *${cmiggc.subject}*\nContacts: *${cmiggc.participants.length}*\n> ᴘᴏᴡᴇʀᴇᴅ ʙʏ Nexus ᴛᴇᴄʜ`}, { quoted: mek });
+            caption: `\nDone saving.\nGroup Name: *${cmiggc.subject}*\nContacts: *${cmiggc.participants.length}*\n> ᴘᴏᴡᴇʀᴇᴅ ʙʏ kirikuu md`}, { quoted: mek });
 
         fs.unlinkSync(nmfilect); // Cleanup the file after sending
     } catch (err) {
