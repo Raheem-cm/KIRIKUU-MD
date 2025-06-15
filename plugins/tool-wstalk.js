@@ -33,7 +33,7 @@ async (conn, mek, m, { from, reply, args }) => {
 ┃◈┃• *📝 Description*: ${data.description.replace(/\n/g, '\n┃◈┃• ')}
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
-> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ elly Tech`;
+> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ kirikuu md`;
 
         // Send message with channel image
         await conn.sendMessage(from, {
