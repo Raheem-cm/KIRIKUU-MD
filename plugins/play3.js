@@ -1,4 +1,4 @@
-const config = require('../config');
+Ikoconst config = require('../config');
 const { cmd } = require('../command');
 const { ytsearch } = require('@dark-yasiya/yt-dl.js');
 
@@ -149,7 +149,7 @@ _Reply with 1, 2 or 3 to this message to download the format you prefer._`;
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
                 newsletterJid: '120363390923760286@newsletter',
-                newsletterName: 'ELLY XMD',
+                newsletterName: 'KIRIKUU-MD',
                 serverMessageId: 143
             }
         };
